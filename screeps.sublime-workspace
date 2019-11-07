@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"minimumNumberOfHarvesters\t(num)"
+			],
+			[
+				"numberOf",
+				"numberOfWallRepairers\t(?)"
+			],
+			[
+				"FIN",
+				"FIND_DROPPED_RESOURCES\t(num)"
+			],
+			[
+				"FIND_SO",
+				"FIND_SOURCES_ACTIVE\t(num)"
+			],
+			[
+				"fin",
+				"findClosestByPath"
+			],
+			[
 				"target",
 				"targets\t(?)"
 			],
@@ -30,10 +50,6 @@
 			[
 				"t",
 				"target\t(?)"
-			],
-			[
-				"FIN",
-				"FIND_HOSTILE_CREEPS\t(num)"
 			],
 			[
 				"findCl",
@@ -155,7 +171,7 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 2936,
+				"buffer_size": 4866,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -164,7 +180,7 @@
 			"file": "prototype.spawn.js",
 			"settings":
 			{
-				"buffer_size": 497,
+				"buffer_size": 607,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -173,7 +189,16 @@
 			"file": "role.harvester.js",
 			"settings":
 			{
-				"buffer_size": 1114,
+				"buffer_size": 1191,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "role.scavenger.js",
+			"settings":
+			{
+				"buffer_size": 1573,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -182,7 +207,7 @@
 			"file": "role.upgrader.js",
 			"settings":
 			{
-				"buffer_size": 755,
+				"buffer_size": 718,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -191,7 +216,7 @@
 			"file": "role.builder.js",
 			"settings":
 			{
-				"buffer_size": 965,
+				"buffer_size": 981,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -200,7 +225,7 @@
 			"file": "role.repairer.js",
 			"settings":
 			{
-				"buffer_size": 1058,
+				"buffer_size": 1108,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -209,7 +234,7 @@
 			"file": "role.wallRepairer.js",
 			"settings":
 			{
-				"buffer_size": 1524,
+				"buffer_size": 1762,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -333,7 +358,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -342,79 +367,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2936,
+						"buffer_size": 4866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1885,
-								1885
+								349,
+								349
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 661.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "prototype.spawn.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								487,
-								487
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "role.harvester.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								901,
-								901
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -424,26 +392,87 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "role.upgrader.js",
+					"buffer": 1,
+					"file": "prototype.spawn.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 755,
+						"buffer_size": 607,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								197,
-								197
+								591,
+								591
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "role.harvester.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "role.scavenger.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1499,
+								1499
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -454,77 +483,109 @@
 				},
 				{
 					"buffer": 4,
-					"file": "role.builder.js",
+					"file": "role.upgrader.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 965,
+						"buffer_size": 718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								238,
-								238
+								103,
+								103
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "role.repairer.js",
+					"file": "role.builder.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1058,
+						"buffer_size": 981,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								44,
+								44
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "role.wallRepairer.js",
+					"file": "role.repairer.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1524,
+						"buffer_size": 1108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								1108,
+								1108
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "role.wallRepairer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
 							]
 						],
 						"settings":
