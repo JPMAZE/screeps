@@ -7,7 +7,7 @@ var roleWallRepairer = require('role.wallRepairer')
 var roleScavenger = require('role.scavenger')
 
 module.exports.loop = function () {
-    
+
     var minimumNumberOfHarvesters = 3;
     var minimumNumberOfScavengers = 1;
     var minimumNumberOfUpgraders = 1;
