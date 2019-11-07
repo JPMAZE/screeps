@@ -171,7 +171,7 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 4866,
+				"buffer_size": 4862,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -367,15 +367,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4866,
+						"buffer_size": 4862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								349,
-								349
+								345,
+								345
 							]
 						],
 						"settings":
